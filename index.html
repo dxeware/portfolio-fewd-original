@@ -8,9 +8,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="images/favicon-32x32.png">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -77,6 +77,7 @@
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
+      <!--
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <!--
@@ -86,35 +87,16 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="images/no2.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1 style="font-size: 48px">Hi.</h1>
+              <p class="my-name" style="font-size: 64px">I'm Laura.</p>
             </div>
           </div>
         </div>
-        <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
+
+<!--
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -124,7 +106,8 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
+
+    </div>--><!-- /.carousel -->
 
 
     <!-- Marketing messaging and featurettes
@@ -140,11 +123,13 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">About Me. </h2>
+          <p class="lead">I'm an application software developer who loves the creative process. I have 12 years of experience as a developer but took 8 years off after when my children were young. I'm excited about web development and am currently learning Javascript. I'm hoping that the Thinkful course training will help me springboard back into my software development career.
+          <br><br>
+          STEM education for young kids is extremely important to me. I'm very passionate about getting children eager to learn about science, technology, engineering, and math.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" style="float:right" src="images/fleur-de-lis.gif" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -152,11 +137,11 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Where I'm From.</h2><br>
+          <p class="lead">I'm a southern girl from New Orleans. Although I miss the south, I currently live in Portland, Oregon and am loving all that it has to offer -- including the recreation, incredible food and open tech community!</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" style="float:left" src="images/fleur-de-lis.gif" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -164,11 +149,16 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">And More About Me. </h2>
+          <p class="lead"><span>What are your favorite hobbies?</span><br>
+          I love sports -- watching college and professional football, playing tenis and golf, and encouraging my daughters in their sports endeavors.</p>
+          <p class="lead"><span>What’s your background?</span><br>
+          I have 12 years programming experience including Ruby, Java, C, C++, bash/csh/ksh, CSS, Perl, Linux, Android, IOS, Appium, Calabash, Cucumber. Applications worked on include automation frameworks for testing mobile apps, call processing and wireless network applications.</p>
+          <p class="lead"><span>What music have you been listeing to lately?</span><br>
+          With two tween daughters who are going to their first concert -- "1989 World Tour" -- I've been listening to everything Taylor Swift :)</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" style="float:right" src="images/fleur-de-lis.gif" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -177,27 +167,59 @@
       <!-- /END THE FEATURETTES -->
 
       <!-- Three columns of text below the carousel -->
+      <h2 class="featurette-heading">Projects</h2>
       <div class="row">
+
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <img class="img-circle" src="images/capitals.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>State Capital Quiz</h2>
+          <p>Test your knowlegde of the cpaitals of the United States of America.
+          </p>
+          <p><a class="btn btn-default" href="http://dxeware.github.io/state-capital-quiz/" role="button">Goto project &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://github.com/dxeware/state-capital-quiz" role="button">View GitHub repo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <img class="img-circle" src="images/hot-or-cold.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>Hot or Cold Game</h2>
+          <p>A fun number guessing game. The game will randomly select a number and the player then tries to guess it.</p>
+          <p><a class="btn btn-default" href="http://dxeware.github.io/hot-or-cold/" role="button">Goto project &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://github.com/dxeware/hot-or-cold" role="button">View GitHub repo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <img class="img-circle" src="images/spotify.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>Spotify Artist Search</h2>
+          <p>Search for your favorite artist's most popular music track being played on Spotify.</p>
+          <p><a class="btn btn-default" href="http://dxeware.github.io/spotifyAPI/" role="button">Goto project &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://github.com/dxeware/spotifyAPI" role="button">View GitHub repo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
+      <hr class="featurette-divider">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/capitals.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>State Capital Quiz</h2>
+          <p>Test your knowlegde of the cpaitals of the United States of America.
+          </p>
+          <p><a class="btn btn-default" href="http://dxeware.github.io/state-capital-quiz/" role="button">Goto project &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://github.com/dxeware/state-capital-quiz" role="button">View GitHub repo &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/hot-or-cold.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>Hot or Cold Game</h2>
+          <p>A fun number guessing game. The game will randomly select a number and the player then tries to guess it.</p>
+          <p><a class="btn btn-default" href="http://dxeware.github.io/hot-or-cold/" role="button">Goto project &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://github.com/dxeware/hot-or-cold" role="button">View GitHub repo &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/spotify.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>Spotify Artist Search</h2>
+          <p>Search for your favorite artist's most popular music track being played on Spotify.</p>
+          <p><a class="btn btn-default" href="http://dxeware.github.io/spotifyAPI/" role="button">Goto project &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://github.com/dxeware/spotifyAPI" role="button">View GitHub repo &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
       <!-- FOOTER -->
       <footer>

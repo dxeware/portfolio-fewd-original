@@ -5,6 +5,8 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  //color: #66ccff;
+  background-color: #F8F8F8;
 }
 
 
@@ -50,7 +52,8 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  //background-color: #777;
+  background-color: blue;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -82,7 +85,8 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  //margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -91,6 +95,30 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
+
+.featurette-image {
+  width: 80px;
+  height: 80px;
+  //float: left;
+}
+
+.lead > span {
+  color: #996600;
+  font-weight: bold;
+}
+
+.row {
+  margin-top: 4em;
+}
+
+/* Projects
+.projects-heading {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+*/
 
 
 /* RESPONSIVE CSS
