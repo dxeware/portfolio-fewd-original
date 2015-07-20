@@ -208,5 +208,38 @@
 
     </div><!-- /.container -->
 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/Users/laurakuhner/source/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <!--
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    -->
+
+
+    <!-- Smooth Scrolling code https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
+    <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+  </script>
   </body>
 </html>
