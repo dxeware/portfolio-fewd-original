@@ -111,6 +111,28 @@ body {
   margin-top: 4em;
 }
 
+footer {
+  //background-color: #CC9900;
+  height: 10em;
+  margin: 3em 0 0 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.container > nav {
+  position: fixed;
+  height: 60px;
+  width: 700px;
+}
+
+
 /* Projects
 .projects-heading {
   font-size: 48px;
